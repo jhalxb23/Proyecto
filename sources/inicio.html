@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Inicio de sesion</title>
+    <link rel="stylesheet" href="../styles/login.css">
+    <script>
+        function verificarCampos() {
+            let usuario = document.querySelector('input[name="Usuario"]').value;
+            let contrasenha = document.querySelector('input[name="Contrasenha"]').value;
+
+            if (usuario === "" || contrasenha === "") {
+                alert("Debes rellenar los campos.");
+                return false;
+            }
+            
+            
+            alert("Debes estar registrado para poder ingresar.");
+            return false;
+        }
+    </script>
+</head>
+
+<body background="../backgrounds/inicio_sesion.jpg">
+    <section class="login">
+        <h5>Iniciar sesion</h5>
+        <form onsubmit="return verificarCampos();">
+            <input class="controls" type="text" name="Usuario" value="" placeholder="Usuario">
+            <input class="controls" type="password" name="Contrasenha" value="" placeholder="Contraseña">
+            <input class="buttons" type="submit" value="ingresar">
+        </form>
+        <p><a href="../sources/reset_password.html">¿Olvidaste tu contraseña?</a></p>
+    </section>
+</body>
+
+</html>
+
+      
+
+
+    </body>
+
+ </html>

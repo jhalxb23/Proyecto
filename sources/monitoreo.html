@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoreo</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <script>
+
+        function requerirSesion() {
+            alert("Debes iniciar sesión para poder acceder a las funcionalidades");
+        // Evita que el enlace realice alguna acción
+        return false;
+
+        }
+       
+        
+    </script>
+</head>
+<body background="../backgrounds/inicio_sesion.jpg"> 
+
+      
+
+       
+<header>
+    <div class="menu">
+
+    <nav>
+        <ul>
+            <li><a href="#" onclick="return requerirSesion();">Ver errores</a></li>
+            <li><a href="#" onclick="return requerirSesion();">ver actualizaciones</a></li>
+            <li><a href="#"onclick="return requerirSesion();">backups</a></li>
+            <li><a href="../crud/index.php">usuarios</a></li>
+          
+            
+        </ul>
+    </nav>
+
+      
+    
+</body>
+</html>
