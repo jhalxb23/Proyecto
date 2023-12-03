@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <h1 class="bg-warning p-2 text-white text-center">Crud Mysql</h1>
+    <h1 class="bg-warning p-2 text-white text-center">Chatbot Fast Solution</h1>
     <br>
     <div class="container">
         <a href="forms/agregarcliente.php" class="btn btn-danger">agregar usuario</a>
